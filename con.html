@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <title>Контакти-LUNA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Контакти със студио LUNA – адрес, телефон, работно време и форма за запитване за грим услуги.">
+  <meta name="keywords" content="контакти гримьор, форма за контакт, студио за грим LUNA, записване за грим">
+  <link rel="stylesheet" href="cs/salon.css">
+<script src="js/script.js"></script>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <div class="logo">
+      <img src="s/logo.png" alt="LUNA logo">
+    </div>
+    <nav id="navbar"></nav>
+</header>
+<main class="page-content">
+  <section class="contact-grid">
+    <div class="contact-box">
+      <h2>Контактна информация</h2>
+      <p>&#128205;<strong>Адрес:</strong> гр. Варна</p>
+      <p>&#128222; <strong>Телефон:</strong> 0888 123 456</p>
+      <p>&#9993; <strong>Email:</strong> info@luna.bg</p>
+
+      <h3>Работно време</h3>
+      <p>Понеделник – Петък: 10:00 – 19:00</p>
+      <p>Събота: 10:00 – 16:00</p>
+      <p>Неделя: Почивен ден</p>
+    </div>
+    <div class="contact-box">
+  <h2>Форма за контакт</h2>
+  <form class="contact-form">
+    <div class="form-row">
+      <label>
+        Име
+        <input type="text" name="first-name" required>
+      </label>
+      <label>
+        Фамилия
+        <input type="text" name="last-name" required>
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>
+        Email
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Телефон
+        <input type="tel" name="phone" placeholder="08XXXXXXXX">
+      </label>
+    </div>
+    <label>
+      Тип услуга
+      <select name="service">
+        <option value="">Изберете услуга</option>
+        <option value="bridal">Булчински грим</option>
+        <option value="official">Официална визия</option>
+        <option value="consultation">Консултация</option>
+        <option value="training">Обучение</option>
+      </select>
+    </label>
+    <label>
+      Предпочитана дата
+      <input type="date" name="date">
+    </label>
+    <label>
+      Съобщение
+      <textarea name="message" rows="5" placeholder="Напишете вашето запитване..." required></textarea>
+    </label>
+    <button type="submit">Изпрати съобщение</button>
+  </form>
+</div>
+  </section>
+  <section class="map-section">
+    <h2>Къде се намираме</h2>
+    <iframe
+  src="https://www.google.com/maps?q=Икономически%20университет%20–%20Варна&output=embed"
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+  </section>
+</main>
+<footer id="footer" class="footer-elegant"></footer>
+</body>
+</html>
